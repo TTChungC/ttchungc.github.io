@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Selection-p: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability">
+  <!--<meta name="keywords" content="Tri-HE, large vision-language models, hallucination, object hallucination, relation hallucination, hallucination detection, hallucination mitigation, AIGC">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selection-<i>p</i>: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>-->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="../../images/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <!-- Vendor Stylesheets -->
+  <!--=================js==========================-->
+  <link rel="stylesheet" href="./static/css/tab_gallery.css">
+  <link rel="stylesheet" href="./static/css/juxtapose.css">
+  <link rel="stylesheet" href="./static/css/image_card_fader.css">
+  <link rel="stylesheet" href="./static/css/image_card_slider.css">
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://https://ttchungc.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Selection-<i>p</i> &nbsp;(ICL compression)
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://https://ttchungc.github.io/projects/selection-p/">
+            Selection-<i>p</i> &nbsp;(ICL compression)
+          </a>
+          <a class="navbar-item" href="https://kaichen1998.github.io/projects/tri-he/">
+            Tri-HE (MLLM hallucination)
+          </a>
+          <a class="navbar-item" href="https://physico-benchmark.github.io/">
+            PhysiCo (Stochastic Parrot phenomenon in LLMs)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Selection-<i>p</i>: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://ttchungc.github.io/">Tsz Ting Chung</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://nealcly.github.io/">Leyang Cui</a><sup>2</sup>,
+            <span class="author-block">
+              <a href="https://lemaoliu.github.io/">Lemao Liu</a><sup>2</sup>,
+            <span class="author-block">
+              <a href="https://timhuang1.github.io/">Xinting Huang</a><sup>2</sup>,
+            <span class="author-block">
+              <a href="https://shumingshi.github.io/">Shuming Shi</a><sup>2</sup>,</span>
+              </span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/dyyeung/home">Dit-Yan Yeung</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <sup>1</sup><span class="author-block">The Hong Kong University of Science and Technology</span><br>
+            <sup>2</sup><span class="author-block">Tencent AI Lab</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. 
+              <span class="link-block">
+                <a href="./static/images/Tri-HE.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>-->
+              <!-- Arxiv Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2410.11786"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/TTChungC/Selection-p"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="teaser">
+        <img style='border:2px solid #000000' width="700" class="center" src="./static/images/compression.png">
+      </div>
+      <h2 style="font-size:17px;" class="subtitle has-text-centered">
+        <br>
+        Compression result by Selection-<i>p</i> on Subj task in-context learning demonstration under 10x compression rate.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background-color: #f1f1f1;">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Large Language Models (LLMs) have demonstrated impressive capabilities in a wide range of natural language processing tasks when leveraging in-context learning. To mitigate the additional computational and financial costs associated with in-context learning, several prompt compression methods have been proposed to compress the in-context learning prompts. Despite their success, these methods face challenges with transferability due to model-specific compression, or rely on external training data, such as GPT-4. In this paper, we investigate the ability of LLMs to develop a unified compression method that discretizes uninformative tokens, utilizing a self-supervised pre-training technique. By introducing a small number of parameters during the continual pre-training, the proposed Selection-<i>p</i> produces a probability for each input token, indicating whether to preserve or discard it. Experiments show Selection-<i>p</i> achieves state-of-the-art performance across numerous classification tasks, achieving compression rates of up to 10 times while experiencing only a marginal 0.8% decrease in performance. Moreover, it exhibits superior transferability to different models compared to prior work. Additionally, we further analyze how Selection-<i>p</i> helps maintain performance on in-context learning with long contexts.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-2">Selection-<i>p</i></h2>
+      </div>
+    </div>
+    <div class="teaser">
+      <center>
+        <img src="./static/images/model.png" width="45%">
+      </center>
+    </div>
+    <br/>
+    <h2 style="font-size:17px;" class="subtitle has-text-centered">
+      <b>Illustration with the training process.</b>  Areas in orange are learnable parameters. For the input context [x<sub>1</sub>, x<sub>2</sub>, . . . , x<sub>n-1</sub>], inference without parameters update is performed first to create the attention mask <span class="lower-overline"><i>p</i></span>. These subsequently form the model input for LoRA training and updating the parameters of the additional linear layer.
+    </h2>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX" style="background-color: #f1f1f1;">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{chung2024selection,
+  title={Selection-p: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability},
+  author={Chung, Tsz Ting and Cui, Leyang and Liu Lemao and Huang Xinting and Shi, Shuming and Yeung, Dit-Yan},
+  journal={arXiv preprint arXiv:2410.11786},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            <center>The website template was adapted from <a href="https://nerfies.github.io/">Nerfies</a>. We thank the authors for sharing the templates.
+            </center>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
