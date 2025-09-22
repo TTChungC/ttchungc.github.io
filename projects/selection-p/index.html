@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    .link-block {
+      display: inline-block;
+    }
+
+    .badge {
+      height: 28px; /* Increase height */
+      width: auto; /* Maintain aspect ratio */
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .badge:hover {
+      transform: scale(1.05); /* Optional: small hover effect */
+    }
+  </style>
   <meta charset="utf-8">
   <meta name="description"
         content="Selection-p: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability">
@@ -133,7 +149,7 @@
                 </a>
               </span>-->
               <!-- Arxiv Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://arxiv.org/pdf/2410.11786"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -141,9 +157,9 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/TTChungC/Selection-p"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -151,6 +167,21 @@
                   </span>
                   <span>Code</span>
                   </a>
+              </span> -->
+              <span class="link-block">
+                <a target="_blank" href="https://arxiv.org/pdf/2410.11786"
+                  ><img
+                    class="badge"
+                    src="https://img.shields.io/badge/Paper-PDF-red?&labelColor=lightgray&logo=arxiv&logoColor=brown" /><img
+                /></a>
+              </span>&nbsp;
+              <!-- * Dataset -->
+              <span class="link-block">
+                <a
+                  target="_blank"
+                  href="https://github.com/TTChungC/Selection-p"
+                  ><img class="badge" src="https://img.shields.io/badge/GitHub-Code-gray?labelColor=lightgray&amp;logo=github&amp;logoColor=gray&amp"><img
+                /></a>
               </span>
             </div>
           </div>
