@@ -19,10 +19,10 @@
   </style>
   <meta charset="utf-8">
   <meta name="description"
-        content="Selection-p: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability">
+        content="On the Role of Chain of Thoughts in the Long In-Context Learning">
   <!--<meta name="keywords" content="Tri-HE, large vision-language models, hallucination, object hallucination, relation hallucination, hallucination detection, hallucination mitigation, AIGC">-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Selection-p: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability</title>
+  <title>On the Role of Chain of Thoughts in the Long In-Context Learning</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -82,13 +82,10 @@
       </span>
       </a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-item" href="https://ttchungc.github.io/projects/selection-p/">
-            Selection-<i>p</i> &nbsp;(ICL compression)
-          </a>
+        <a class="navbar-item" href="https://ttchungc.github.io/projects/manyshot-cot/">
+          Manyshot CoT (Understanding on ICL and CoT)
+        </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://ttchungc.github.io/projects/manyshot-cot/">
-            Manyshot CoT (Understanding on ICL and CoT)
-          </a>
           <a class="navbar-item" href="https://gorov.github.io/prelude/">
             PRELUDE (Measuring Fluid Intelligence)
           </a>
@@ -100,6 +97,9 @@
           </a>
           <a class="navbar-item" href="https://kaichen1998.github.io/projects/tri-he/">
             Tri-HE (MLLM hallucination)
+          </a>
+          <a class="navbar-item" href="https://ttchungc.github.io/projects/selection-p/">
+            Selection-<i>p</i> &nbsp;(ICL compression)
           </a>
         </div>
       </div>
@@ -113,18 +113,14 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">Selection-<i>p</i>: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability</h1>
+          <h1 class="title is-2 publication-title">On the Role of Chain of Thoughts in the Long In-Context Learning</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://ttchungc.github.io/">Tsz Ting Chung</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://nealcly.github.io/">Leyang Cui</a><sup>2</sup>,
-            <span class="author-block">
               <a href="https://lemaoliu.github.io/">Lemao Liu</a><sup>2</sup>,
             <span class="author-block">
-              <a href="https://timhuang1.github.io/">Xinting Huang</a><sup>2</sup>,
-            <span class="author-block">
-              <a href="https://shumingshi.github.io/">Shuming Shi</a><sup>2</sup>,</span>
+              <a href="https://sites.google.com/site/moyunlp/">Mo Yu</a><sup>3</sup>,</span>
               </span>
             <span class="author-block">
               <a href="https://sites.google.com/view/dyyeung/home">Dit-Yan Yeung</a><sup>1</sup>
@@ -133,7 +129,8 @@
 
           <div class="is-size-5 publication-authors">
             <sup>1</sup><span class="author-block">The Hong Kong University of Science and Technology</span><br>
-            <sup>2</sup><span class="author-block">Tencent AI Lab</span>
+            <sup>2</sup><span class="author-block">Fudan University</span> &nbsp
+            <sup>3</sup><span class="author-block">WeChat AI</span>
           </div>
 
           <div class="column has-text-centered">
@@ -150,7 +147,7 @@
               </span>-->
               <!-- Arxiv Link. -->
               <!-- <span class="link-block">
-                <a href="https://arxiv.org/pdf/2410.11786"
+                <a 
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -160,7 +157,7 @@
               </span> -->
               <!-- Code Link. -->
               <!-- <span class="link-block">
-                <a href="https://github.com/TTChungC/Selection-p"
+                <a 
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -168,21 +165,15 @@
                   <span>Code</span>
                   </a>
               </span> -->
+                      <!-- * Paper -->
               <span class="link-block">
-                <a target="_blank" href="https://arxiv.org/pdf/2410.11786"
+                <a target="_blank" href="Manyshot.pdf"
                   ><img
                     class="badge"
                     src="https://img.shields.io/badge/Paper-PDF-red?&labelColor=lightgray&logo=arxiv&logoColor=brown" /><img
                 /></a>
               </span>&nbsp;
-              <!-- * Dataset -->
-              <span class="link-block">
-                <a
-                  target="_blank"
-                  href="https://github.com/TTChungC/Selection-p"
-                  ><img class="badge" src="https://img.shields.io/badge/GitHub-Code-gray?labelColor=lightgray&amp;logo=github&amp;logoColor=gray&amp"><img
-                /></a>
-              </span>
+
             </div>
           </div>
         </div>
@@ -191,6 +182,7 @@
   </div>
 </section>
 
+<!--
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -199,11 +191,12 @@
       </div>
       <h2 style="font-size:17px;" class="subtitle has-text-centered">
         <br>
-        Compression result by Selection-<i>p</i> the in-context learning demonstration on the Subj task under a 10x compression rate.
+        Compression result by Selection-<i>p</i> on Subj task in-context learning demonstration under 10x compression rate.
       </h2>
     </div>
   </div>
 </section>
+-->
 
 <section class="section" style="background-color: #f1f1f1;">
   <div class="container is-max-desktop">
@@ -213,7 +206,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Large Language Models (LLMs) have demonstrated impressive capabilities in a wide range of natural language processing tasks when leveraging in-context learning. To mitigate the additional computational and financial costs associated with in-context learning, several prompt compression methods have been proposed to compress the in-context learning prompts. Despite their success, these methods face challenges with transferability due to model-specific compression, or rely on external training data, such as GPT-4. In this paper, we investigate the ability of LLMs to develop a unified compression method that discretizes uninformative tokens, utilizing a self-supervised pre-training technique. By introducing a small number of parameters during the continual pre-training, the proposed Selection-<i>p</i> produces a probability for each input token, indicating whether to preserve or discard it. Experiments show Selection-<i>p</i> achieves state-of-the-art performance across numerous classification tasks, achieving compression rates of up to 10 times while experiencing only a marginal 0.8% decrease in performance. Moreover, it exhibits superior transferability to different models compared to prior work. Additionally, we further analyze how Selection-<i>p</i> helps maintain performance on in-context learning with long contexts.
+            In-Context Learning (ICL) has emerged as a powerful paradigm for adapting Large Language Models (LLMs) to new tasks without gradient updates. While recent advances in long-context models have enabled a shift from few-shot to many-shot ICL, achieving performance comparable to fine-tuning, research has largely focused on classification tasks. In contrast, the behavior of Chain-of-Thought (CoT) prompting, which elicits complex reasoning, remains underexplored in many-shot settings. We present a comprehensive analysis of many-shot in-context CoT learning, revealing fundamental differences from traditional classification-based ICL. Our findings show that CoT performance in many-shot settings deviates notably from earlier observations. In addition, demonstration selection based on input similarity, which is a common heuristic in ICL, becomes ineffective under the CoT paradigm. Counterintuitively, our experiments show that the quality of the reasoning chain, as measured by its ground-truth correctness, is not the primary factor for success. Instead, we observe a consistent performance hierarchy where model-self-generated CoTs with incorrectness outperform those with human-verified, correct reasoning. This suggests that the effectiveness of many-shot CoT prompting is driven less by demonstration quality and more by alignment with the LLM’s internal reasoning processes. Our findings challenge prevailing assumptions and underscore the need for new strategies tailored to the unique dynamics of many-shot CoT learning.
           </p>
         </div>
       </div>
@@ -222,37 +215,6 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-2">Selection-<i>p</i></h2>
-      </div>
-    </div>
-    <div class="teaser">
-      <center>
-        <img src="./static/images/model.png" width="45%">
-      </center>
-    </div>
-    <br/>
-    <h2 style="font-size:17px;" class="subtitle has-text-centered">
-      <b>Illustration with the training process.</b>  Areas in orange are learnable parameters. For the input context [x<sub>1</sub>, x<sub>2</sub>, . . . , x<sub>n-1</sub>], inference without parameters update is performed first to create the attention mask <span class="lower-overline"><i>p</i></span>. These subsequently form the model input for LoRA training and updating the parameters of the additional linear layer.
-    </h2>
-  </div>
-</section>
-
-
-<section class="section" id="BibTeX" style="background-color: #f1f1f1;">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{chung2024selection,
-  title={Selection-p: Self-Supervised Task-Agnostic Prompt Compression for Faithfulness and Transferability},
-  author={Chung, Tsz Ting and Cui, Leyang and Liu, Lemao and Huang, Xinting and Shi, Shuming and Yeung, Dit-Yan},
-  journal={arXiv preprint arXiv:2410.11786},
-  year={2024}
-}</code></pre>
-  </div>
-</section>
 
 
 <footer class="footer">
