@@ -19,10 +19,10 @@
   </style>
   <meta charset="utf-8">
   <meta name="description"
-        content="On the Role of Chain of Thoughts in the Long In-Context Learning">
+        content="On the Role of Chain of Thoughts in the Long Test-Time In-Context Learning">
   <!--<meta name="keywords" content="Tri-HE, large vision-language models, hallucination, object hallucination, relation hallucination, hallucination detection, hallucination mitigation, AIGC">-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>On the Role of Chain of Thoughts in the Long In-Context Learning</title>
+  <title>On the Role of Chain of Thoughts in the Long Test-Time In-Context Learning</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -83,7 +83,7 @@
       </a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-item" href="https://ttchungc.github.io/projects/manyshot-cot/">
-          Manyshot CoT (Understanding on ICL and CoT)
+          Manyshot CoT (Understanding on CoT-ICL)
         </a>
         <div class="navbar-dropdown">
           <a class="navbar-item" href="https://gorov.github.io/prelude/">
@@ -206,7 +206,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            In-Context Learning (ICL) has emerged as a powerful paradigm for adapting Large Language Models (LLMs) to new tasks without gradient updates. While recent advances in long-context models have enabled a shift from few-shot to many-shot ICL, achieving performance comparable to fine-tuning, research has largely focused on classification tasks. In contrast, the behavior of Chain-of-Thought (CoT) prompting, which elicits complex reasoning, remains underexplored in many-shot settings. We present a comprehensive analysis of many-shot in-context CoT learning, revealing fundamental differences from traditional classification-based ICL. Our findings show that CoT performance in many-shot settings deviates notably from earlier observations. In addition, demonstration selection based on input similarity, which is a common heuristic in ICL, becomes ineffective under the CoT paradigm. Counterintuitively, our experiments show that the quality of the reasoning chain, as measured by its ground-truth correctness, is not the primary factor for success. Instead, we observe a consistent performance hierarchy where model-self-generated CoTs with incorrectness outperform those with human-verified, correct reasoning. This suggests that the effectiveness of many-shot CoT prompting is driven less by demonstration quality and more by alignment with the LLM’s internal reasoning processes. Our findings challenge prevailing assumptions and underscore the need for new strategies tailored to the unique dynamics of many-shot CoT learning.
+            In-Context Learning (ICL) has emerged as a powerful paradigm for adapting Large Language Models (LLMs) to new tasks without gradient updates. While advances in long-context models have enabled a shift from few-shot to many-shot ICL, research has largely focused on non-reasoning tasks. Therefore, we target to address the underexplored behavior of Chain-of-Thought (CoT) prompting in many-shot scenarios, explaining the shift from studies in how to select appropriate ICL examples to how to enable LLMs to evolve their understanding at test-time. We present a comprehensive analysis of many-shot in-context CoT learning, uncovering behavioral differences between reasoning-oriented and non-reasoning oriented LLMs. Our findings show that with both types of models, there is a fundamental difference from earlier studies in the ICL setting. Crucially, we find that demonstration selection and ordering remain critically important, while semantic similarity, which is a strong heuristic for few-shot ICL and RAG, becomes ineffective. We propose that effective manyshot CoT-ICL functions as a parameter-free, test-time learning process. Supporting this, we show that (1) self-generated demonstrations (where the model creates its own training curriculum) outperform ground-truth or stronger-model demonstrations, particularly for weaker models, and (2) smoothly ordered demonstrations (measured via embedding space curvature) significantly enhance performance, mirroring principles of curriculum learning. Our findings bridge manyshot ICL with test-time scaling paradigms, reframing the context window not as a static retrieval database, but as a dynamic, structured learning environment that triggers latent model capabilities.
           </p>
         </div>
       </div>
