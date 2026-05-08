@@ -13,7 +13,7 @@ Previously, I graduated with first class honors from the Department of Computer 
 
 My research interests include natural language processing and its applications. Currently, I mainly focus on analysing the reasoning ability of LLM and enhance it with training.
 
-I am deeply grateful to Principal Researcher Lemao Liu, Mo Yu, and Professor Dit-Yan Yeung for their invaluable guidance and support throughout my academic journey.
+I am deeply grateful to [Principal Researcher Lemao Liu](https://lemaoliu.github.io/), [Mo Yu](https://sites.google.com/site/moyunlp/), and [Professor Dit-Yan Yeung](https://sites.google.com/view/dyyeung/home) for their invaluable guidance and support throughout my academic journey.
 
 ## Selected papers
 
