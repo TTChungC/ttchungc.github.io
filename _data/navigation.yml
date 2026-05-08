@@ -1,0 +1,12 @@
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Experience"
+    url: /experience/
+
+  - title: "Awards"
+    url: /awards/
+
+  - title: "CV"
+    url: /files/Chung_Tsz_Ting_CV.pdf
