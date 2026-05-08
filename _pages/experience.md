@@ -7,28 +7,31 @@ author_profile: true
 
 ## Education
 
-**The Hong Kong University of Science and Technology**  
-*Ph.D. candidate*  
-Sep 2021 -- Present  
-Advisor: [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung/home)
+**The Hong Kong University of Science and Technology**<br>
+*Ph.D. candidate*<br>
+Sep 2021 -- Present<br>
+Advisor: [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung/home)<br>
+Supported by the [Hong Kong Ph.D. Fellowship](https://cerg1.ugc.edu.hk/hkpfs/index.html).
 
-**The Chinese University of Hong Kong**  
-*Bachelor of Science in Computer Science*  
-First Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFirst Class Honors, ELFi--
-layout: archive
-title: "Awards"
-permalink: /awards/
-author_profile: true
----
+**The Chinese University of Hong Kong**<br>
+*Bachelor of Science in Computer Science*<br>
+First Class Honors, ELITE Stream<br>
+Sep 2017 -- Jun 2021
 
-## Scholarship / Awards
+## Internship
 
-- **Hong Kong Ph.D. Fellowship**, Hong Kong Research Grants Council, 2021--Now
-- **Outstanding PG Teaching Assistant Honorable Mention**, The Hong Kong University of Science and Technology, 2024--2025
-- **[Professor Samuel Chanson Best PGTA Award](https://cse.hkust.edu.hk/News/SCSA2022/)**, The Hong Kong University of Science and Technology, 2021--2022
-- **RedBird Ph.D. Scholarship**, The Hong Kong University of Science and Technology, 2021--2022
-- **Dean’s List Of The Engineering Faculty**, The Chinese University of Hong Kong, 2020--2021
-- **ELITE Stream Student Scholarship**, The Chinese University of Hong Kong, 2018--2020
-- **Fong Shu Chuen Scholarship**, The Chinese University of Hong Kong, 2018--2019
-- **Shum Choi Sang Scholarship**, The Chinese University of Hong Kong, 2017--2018
-- **Faculty Admission Scholarship**, The Chinese University of Hong Kong, 2017--2018
+**WeChat AI, Tencent WXG**<br>
+Pattern Recognition Center<br>
+May 2025 -- Present
+
+**Tencent AI Lab**<br>
+[NLP Group](https://ai.tencent.com/ailab/nlp/en/index.html)<br>
+Nov 2023 -- Sep 2024
+
+**Hospital Authority**<br>
+[AI Lab](https://innovation.ha.org.hk/)<br>
+Jan 2021 -- Jul 2021
+
+**The Chinese University of Hong Kong**<br>
+[Stanley Ho Big Data Decision Analytics Research Centre](https://bdda.cuhk.edu.hk/)<br>
+Jun 2020 -- Sep 2020

@@ -7,7 +7,7 @@ author_profile: true
 
 ## Scholarship / Awards
 
-- **Hong Kong Ph.D. Fellowship**, Hong Kong Research Grants Council, 2021--Now
+- **[Hong Kong Ph.D. Fellowship](https://cerg1.ugc.edu.hk/hkpfs/index.html)**, Hong Kong Research Grants Council, 2021--Now
 - **Outstanding PG Teaching Assistant Honorable Mention**, The Hong Kong University of Science and Technology, 2024--2025
 - **[Professor Samuel Chanson Best PGTA Award](https://cse.hkust.edu.hk/News/SCSA2022/)**, The Hong Kong University of Science and Technology, 2021--2022
 - **RedBird Ph.D. Scholarship**, The Hong Kong University of Science and Technology, 2021--2022
