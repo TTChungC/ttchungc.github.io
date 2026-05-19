@@ -22,7 +22,7 @@ Sep 2017 -- Jun 2021
 
 **WeChat AI, Tencent WXG**<br>
 Pattern Recognition Center<br>
-May 2025 -- Present
+May 2025 -- May 2026
 
 **Tencent AI Lab**<br>
 [NLP Group](https://ai.tencent.com/ailab/nlp/en/index.html)<br>
