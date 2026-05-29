@@ -21,6 +21,10 @@ Sep 2017 -- Jun 2021
 ## Internship
 
 **Tencent**<br>
+Hunyuan Team<br>
+June 2025 -- Now
+
+**Tencent**<br>
 WeChat AI<br>
 May 2025 -- May 2026
 
