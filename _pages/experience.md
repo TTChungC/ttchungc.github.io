@@ -20,6 +20,10 @@ Sep 2017 -- Jun 2021
 
 ## Internship
 
+**Tencent TEG**<br>
+Hunyuan Team<br>
+June 2025 -- now
+
 **WeChat AI, Tencent WXG**<br>
 Pattern Recognition Center<br>
 May 2025 -- May 2026
