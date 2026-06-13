@@ -22,7 +22,7 @@ Sep 2017 -- Jun 2021
 
 **Tencent**<br>
 Hunyuan Team<br>
-June 2025 -- Now
+May 2026 -- Now
 
 **Tencent**<br>
 WeChat AI<br>
