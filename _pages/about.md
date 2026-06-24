@@ -19,7 +19,7 @@ I am deeply grateful to Associate Professor [Lemao Liu](https://lemaoliu.github.
 
 <div style="border-left: 4px solid #2f7d95; padding: 0.2rem 0 0.2rem 0.8rem; margin: 0.45rem 0;">
 <h3 style="margin: 0 0 0.15rem 0;"><a href="https://ttchungc.github.io/projects/insightemb/">InsightEmb: Learning Action-Intent Embeddings for Agentic Insight Retrieval</a></h3>
-<p style="margin: 0; color: #777;"><em>Agentic Retrieval</em> &ndash; Preprint</p>
+<p style="margin: 0; color: #777;"><em>Agentic Retrieval</em> &ndash; In Submission</p>
 </div>
 
 <div style="border-left: 4px solid #2f7d95; padding: 0.2rem 0 0.2rem 0.8rem; margin: 0.45rem 0;">
